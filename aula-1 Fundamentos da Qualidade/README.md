@@ -33,7 +33,7 @@ Custo de desenvolvimento | x
 
 1.  Software não é tangível. requer abstração para desenvolve-lo
 2. Processo de desenvolvimento é executado e gerenciado por pessoas, sendo portanto subjetivo
-3. Abastração e subjetividade conferem conferem dificuldade no processo de desenvolvimento.
+3. Abstração e subjetividade conferem conferem dificuldade no processo de desenvolvimento.
 4.  O software em si é uma consequencia direta da forma (processo) pelo qual foi desenvolvido. **Processo manufaturado**.
 5. Processo de desenvolvido eficiênte -> software eficiênte.
 
@@ -66,7 +66,7 @@ Abstrato e subjetivo
   * Fim do ciclo de desenvolvimento.
 
 
-  ## Onde Estão os defeitos?
+## Onde Estão os defeitos?
 
 * O maior dificuldade está na fase inicial do entendimento do sistema. Requisitos tem um alto grau de abstração + comunicação  com pessoas.
 
@@ -148,5 +148,5 @@ Facilidade de uso; Desempenho; confiabilidade | Taxa de defeitos; Facilidade de 
     * Programas mais eficientes
     * Menor custo e mais facilidade de manutenção
     * Menor prazo de entrega
-    
+
 >#   É mais fácil fazer software correto que consertá-lo.
