@@ -60,7 +60,93 @@ Abstrato e subjetivo
 4. **Testes :** Padrão de qualidade desejado
   * Buscar defeitos e falhas do sistema.
 5. **Homologação e aceitação :**  
-  * Usuário aprovar o sistema. 
+  * Usuário aprovar o sistema.
 5. **Implantação :** Colocar no ambiente do usuário e treina-lo
   * Entregar o sistemas.
   * Fim do ciclo de desenvolvimento.
+
+
+  ## Onde Estão os defeitos?
+
+* O maior dificuldade está na fase inicial do entendimento do sistema. Requisitos tem um alto grau de abstração + comunicação  com pessoas.
+
+* Segundo maior dificuldade está na modelagem.
+
+* Erros de codificação reprensentão em % menor parcela dos problemas. Mostrando que o problema principal não é da análise.
+
+![Divisão dos problemas](../img/005-DivisaoProblemas.png "Divisão dos problemas")
+
+## O que é Qualidade de software?
+
+* Qualidade é a satisfação total do consumidor.
+  * Atender o desejo do usuários.
+* Qualidade é a conformidade com os requisitos.
+  * Satisfazer o desejo do usuário.
+* Qualidade é adequação ao uso.
+  * Escrever tudo que se deve fazer, Fazer o que está escrito.
+
+Processo sistemático :
+
+* Focaliza todas as etapas e artefatos (Modelos, diagramas, programas, modulos de software, classes e etc.)
+de modo que satisfaça as necessidades de seus usuários e desenvolvedores. Previnindo e eliminando defeitos.
+
+## Qualidade de software. conformidade com:
+* **Requisitos Funcionais:** base para medir a qualidade.
+* **Requisitos de desempenho :** Critérios de desempenho definidos
+* **Características Implícitas**
+  * Fácil de usar (Usuário)
+  * Código legível, fácil de manter (desenvolvedor)
+
+ * Qualidade de software depende da qualidade do seu processo
+
+> # QUALIDADE NO PROCESSO REFLETE EM QUALIDADE NO PRODUTO.
+
+## Preocupações de usuário
+
+> Funciona adequadamente em imprevísto.
+
+> Funções requeridas estão disponíveis e  são executadas eficientemente?
+
+> O Sostware é seguro? Evita que pessoas não autorizadas tem acesso aos meus dados?
+
+
+## Visões da qualidade
+
+Usuário | Desenvoldedor | Organização
+------- | ------------- | -----------
+Facilidade de uso; Desempenho; confiabilidade | Taxa de defeitos; Facilidade de manutenção;  conformidade com requisitos | Cumprimento de prazos; boa previsão de custos; Boa produtividade.
+
+## Por que as organizações desejam software de qualidade ?
+
+* **Software de qualidade :**   
+  * Garante a segurança das transações, dos negócios e das pessoas envolvidas.
+  *  Mantém a alta disponibilidade do serviço.
+
+  ## Gerenciamento da qualidade
+
+  * **Garantia :** Padrões que garantem a qualidade.
+  * **Planejamento :** Seleção de procedimentos e padrões adequados ao seu projeto.
+  * **Controle :**  Assegurar que o desenvolvimento tenha seguidos os procedimentos e padrões de qualidade planejados do projeto.
+
+  ## Custo com qualidade.
+
+* Qualidade não tem custo.
+* Se paga em pouco tempo.
+
+![Custo com qualidade](../img/006-custo.png "Custo com qualidade")
+
+## Resumindo
+
+* Aumento da qualidade do **processo** acarreta em :
+  * Garantia de estarmos fazendo software certo
+  * Aumento da produtividade
+  * Redução dos Custos
+  * Menor prazo de entrega
+
+  * Aumento da qualidade do **produto** acarreta em :
+    * Reproveitamento do código do programa
+    * Programas mais eficientes
+    * Menor custo e mais facilidade de manutenção
+    * Menor prazo de entrega
+    
+>#   É mais fácil fazer software correto que consertá-lo.
