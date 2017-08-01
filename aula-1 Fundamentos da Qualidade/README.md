@@ -133,8 +133,8 @@ Facilidade de uso; Desempenho; confiabilidade | Taxa de defeitos; Facilidade de 
 * Qualidade não tem custo.
 * Se paga em pouco tempo.
 
-![Custo com qualidade](../img/006-custo.png "Custo com qualidade")
-
+!["Custo com qualidade"](../img/006-custo.png "Custo com qualidade")
+![Divisão dos problemas](../img/005-DivisaoProblemas.png "Divisão dos problemas")
 ## Resumindo
 
 * Aumento da qualidade do **processo** acarreta em :

@@ -145,7 +145,8 @@ Número | Atividade | Finalidade
    !["Divisão erro"](../img/005-DivisaoProblemas.png "Divisão erro")
 
 #### Custo de qualidade
-!["Custo de qualidade"](../img/006-Custo.png "Custo de qualidade")
+
+![Custo de Qualidade](../img/006-custo.png "Custos de qualidade")
 
 * Custo operacionais de implementação das atividades de qualidade no processo e produto.
 
