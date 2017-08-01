@@ -201,18 +201,6 @@ Diretrizes para revisão
 * Realize treinamento para todos os revisores.
 * Reveja as primeiras revisões.
 
-#### Resumindo
-##### qualidade no processo
-* Aferição de cada etapa -> Fatores, métricas e Garantia de Software
-* SQA;
- *  Avaliações, auditorias, RTF, Revisões
-* Atividade de controle de mudança.
-* Documentação
-##### qualidade no produto
-* Testes
- * Fase de implementação (unitários e integrados)
- * Fase de testes (Sistema e Homologação)
-* Automação de testes (Diversas técnicas).
 ## Conclusão
 
 Custo de identificação e reparo, defeito e erro aumenta a proporção que o tempo passa.
