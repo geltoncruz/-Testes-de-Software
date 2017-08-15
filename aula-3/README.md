@@ -48,11 +48,7 @@
 11. Interface Homem máquina ambígua ou inconsistente.
 12. Diversos.
 
-Erros | Total | Grave | Moderado | Simples
------ | ----- | ------|----------|--------
-| | Qtd |
 
-Addicionar tabelas.
 ![Quadro de severidade](../img/009.png)
 
 #### O que a tabela diz?
@@ -107,3 +103,11 @@ Regras princípios de segurança que garantam a ocorrêcia do evento.
 3. Identificar e avaliar casualidades que podem impactar negativamente.
 4. Analisar a gravidade e a probalidade de ocorrencia.
 5. Listar requesitos de segurança para o software.
+
+##### Técnica Análise de gravidade e probabilidade de ocorrência
+![Árvore de falha](../img/013.jpg "Árvore de falha")
+
+# NORMAS
+![Normas](../img/014.jpg)
+
+# Por que certficar ?
