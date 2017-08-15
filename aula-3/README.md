@@ -53,6 +53,7 @@ Erros | Total | Grave | Moderado | Simples
 | | Qtd |
 
 Addicionar tabelas.
+![Quadro de severidade](../img/009.png)
 
 #### O que a tabela diz?
 * Os erros, 1, 2 e 5 - Poucas causas vitais que correspondem a 53% dos erros (Some a coluna Tota % desses 3 grupos de erros).
@@ -61,11 +62,48 @@ Addicionar tabelas.
 
 #### Procedimento - SQA Estatística.
 
-Repetir os passos até que errps sejam sanados.
+Repetir os passos até que erros sejam sanados.
 
 1. Criar lista de possíveis categorias de Causas.
 2. Quantificar, por um tempo determinado, a incidência de erros.
 3. Focar nas poucas causas vitais.
     * 20% do projeto/código contem 80% dos erros
 4. Corrigir as causas vitais -> Corrigir os erros.
-5. Surgem novos erros (Testes são exaustivos)
+5. Surgem novos erros (Testes são exaustivos).
+
+## Métrica Confiabilidade
+![Métrica Confiabilidade](../img/010.jpg "Métrica Confiabilidade")
+Probabilidade de um programa operar sem falhas num ambiente específico, durante determinado tempo específico.
+
+* Considerar número mínimo de falhas ocorrerá na execução
+* Alguns softwares precisam de % confibialidade próximo a 100%.
+
+> 0,98 confiabilidade por 8h de processamento.
+>> Se o software for executado 100x por um período de 8 horas é provavel que ele funcione corretamente 98x
+
+* Alta Disponibilidade do software.
+
+## Métrica Segurança
+![Métrica Segurança](../img/011.png "Métrica Segurança")
+
+* Sistema de segurança Crítico.
+* Trata-se uma atividade SQA
+    * Detecta e avalia risco em potencial que podem provocar falhas e impactar em desempenho.
+        * Quais são as vunerabilidades de meu sistema?
+        * Quais são os eventos que podem acontecer ue afetam a vunerabilidade.
+        * Quais são os percentual de incidencia de força que esse evento tende a acontecer.
+    * Identifica e avalia casualidades em potencial que possam exercer impacto negativos e provacar falhar.
+        
+    
+
+### Planos para implementação de segurança
+
+* **MONTAR PLANO DE RISCO**
+    ![MONTAR PLANO DE RISCO](../img/012.jpg "MONTAR PLANO DE RISCO")
+Regras princípios de segurança que garantam a ocorrêcia do evento.
+
+1. Identificar a presença de risco o mais cedo possível.
+2. Traçar estratégias no projeto que eliminem ou controlem os riscos em potencial.
+3. Identificar e avaliar casualidades que podem impactar negativamente.
+4. Analisar a gravidade e a probalidade de ocorrencia.
+5. Listar requesitos de segurança para o software.
