@@ -138,3 +138,28 @@ Função | Nº de ocorrencia | Complexidade | Peso | Resultado
 | | | Total 5 |  =  |
 
 ### APF - Produtividade / Linguagem
+
+### APF - Ajustes
+Para determinar o fator de ajuste, deves-se estimar o nível de influência para cada uma das características da aplicação relacinada abaixo:
+
+1. Comumunicação de dados
+2. Funções Distribuidas
+3. Desempenho
+4. Carga de configuração
+5. Volume de transação
+6. Entrada de dados online
+7. Eficiência do usuário final
+8. Atualização online
+9. Processameneto complexo
+10. Reutilização
+11. Facilidade de implantação
+12. Facilidade operacional
+13. Múltiplos locais
+14. Facildiade de mudança
+
+0 = Não existe nenhuma influência
+1 = Pouca Influencia
+2 = Influência moderada
+3 = Influência média
+4 = Influência significativa
+5 = Grande influência
