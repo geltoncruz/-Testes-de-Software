@@ -182,7 +182,7 @@ Podem avaliar questões de usabilidade | Não avaliam questões de usabilidade.
 
 ### Teste Estático
 
-**Objetivo:** analisar o código sem executá-lo e verificar se as boas práticas adotadas foram obedecidas.  
+**Objetivo:** analisar o código **sem executá-lo** e verificar se as boas práticas adotadas foram obedecidas.  
 * Obviamente é um teste “Caixa Branca”
 * Existem ferramentas que fazem este teste automaticamente **Ex.: Findbugs**
 * Exemplos de verificações realizadas:
@@ -202,3 +202,62 @@ Podem avaliar questões de usabilidade | Não avaliam questões de usabilidade.
 * É o método tradicional: insere uma entrada, executa o sistema e confere a saída.
 * As análises estáticas e dinâmicas se complementam
 ![Complementar](../img/047.jpg)
+
+# Tipos de Teste
+![Tipos de Teste](../img/048.jpg "Tipos de Teste")
+
+## Teste de funcionalidade
+
+* **Objetivo:** validar que as funcionalidades do sistema estão funcionando corretamente
+
+* **Envolve**:
+    * Unidade
+    * Integração
+    * Sistema
+    * Aceitação
+    * Alfa
+    * Beta
+    * Regressão
+
+Ex: ![Testar envio de e-mail](../img/049.jpg "Testar envio de e-mail")
+
+## Teste de Desempenho
+
+* **Objetivo:** validar o desempenho do sistema no que diz respeito ao seu tempo de resposta para determinadas operações.
+
+**Exemplos:**
+* Tempo de resposta de um sistema bancário para processar uma operação
+* Tempo de resposta do facebook para fazer upload de fotos
+* Tempo de resposta de um robô médico para responder a comandos
+
+**Ferrramenta**
+* [Jmter](http://jmeter.apache.org/) - http://jmeter.apache.org/
+![Jmeter](../img/050.jpg)
+![Arquitetura de teste de desempenho](../img/051.jpg)
+
+# Teste de usabilidade
+* **Objetivo:**  validam aspectos que envolvem a experiência do usuário ao utilizar o sistema.
+
+* Exemplos:
+    * Estética de um website
+    * Definição e disposição de cores da interface do aplicativo
+    * Tipo de interface a ser utilizada
+    * Touch screen? Gestos? Sensível ao som?
+    * Ajuda on-line e contextual
+    * Manual do usuário
+
+# Teste de segurança
+* **Objetivo:** validam a proteção do sistema contra invasões ou acesso não autorizado a informações.
+
+* Exemplos:
+    * Sites com acesso restrito
+    * Tráfego de informações criptografadas
+    ![Teste de segurança](../img/052.jpg)
+
+# Teste de portablidade
+* **Objetivo:**  valida o funcionamento do sistema em diferentes plataformas e dispositivos, nas quais o sistema está proposto a funcionar.
+
+* Exemplos:
+    * IOS, Android, etc.
+    * Smarphones, Tablets, Notebooks, etc
+    ![Teste de Portabilidade](../img/053.jpg)
