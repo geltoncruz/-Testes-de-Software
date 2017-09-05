@@ -199,5 +199,6 @@ Podem avaliar questões de usabilidade | Não avaliam questões de usabilidade.
 ### Teste Dinámicos
 
 **Objetivo:** validar o sistema através de sua execução
-• É o método tradicional: insere uma entrada, executa o sistema e confere a saída.
-• As análises estáticas e dinâmicas se complementam
+* É o método tradicional: insere uma entrada, executa o sistema e confere a saída.
+* As análises estáticas e dinâmicas se complementam
+![Complementar](../img/047.jpg)
