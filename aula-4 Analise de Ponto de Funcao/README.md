@@ -193,8 +193,6 @@ RF3 | O sistema deve permitir ao usuário alocar discos à categorias. (Um disco
 
 ![Diagrama de caso de uso](../img/017.jpg)
 
-
-
 #### Navegabildiade
 
 ![Navegabilidade](../img/018.jpg)
@@ -202,6 +200,7 @@ RF3 | O sistema deve permitir ao usuário alocar discos à categorias. (Um disco
 #### Detalhes protótipo
 
 ![Navegabilidade](../img/019.jpg)
+
 
 
 EE
@@ -249,6 +248,36 @@ CE
 0 x Médio peso 4 = 0
 0 x Complexo peso 6 = 0
 TOTAL : 15
+
+### Contando
+
+
+Função | Nº de ocorrencia | Complexidade | Peso | Resultado
+------ | ---------------- | ------------ | ---- | ---------
+**Entrada externa** | | Simples | x 3 = |
+| | | Médio | x 4 =  |
+| | | Complexo | x 6 =  |
+| | | Total 1 |  =  |
+| | | | |
+**Saida externa** | | Simples | x 4 = |
+| | | Médio | x 5 = |
+| | | Complexo | x 7 = |
+| | | Total 2 |  =  |
+| | | | |
+**Arquivo Lógico Interno** | | Simples | **2** x 7 = | **14**
+| | | Médio | **0** x 10 = | 0
+| | | Complexo | **0** x 15 = | 0
+| | | Total 3 |  =  | **14**
+| | | | |
+**Arquivo interface Externo** | | Simples | 0 x 5 = | 0
+| | | Médio | 0 x 7 = | 0
+| | | Complexo | 0 x 10 = | 0
+| | | Total 4 |  =  | 0
+| | | | |
+**Consultas** | | Simples | x 3 = |
+| | | Médio | x 4 = |
+| | | Complexo | x 6 = |
+| | | Total 5 |  =  |
 
 ```js
 //TOTAL PONTO FUNÇÃO BRUTOS 15+14+18

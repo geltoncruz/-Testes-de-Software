@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>README</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////home/geltoncruz/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.2.7/node_modules/@shd101wyy/mume/dependencies/katex/katex.min.css">
+      
+
+      
+      
+      
+
+      <style> 
+      /**
+ * prism.js Github theme based on GitHub's theme.
+ * @author Sam Clarke
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #333;
+  background: none;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.4;
+
+  -moz-tab-size: 8;
+  -o-tab-size: 8;
+  tab-size: 8;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: .8em;
+  overflow: auto;
+  /* border: 1px solid #ddd; */
+  border-radius: 3px;
+  /* background: #fff; */
+  background: #f5f5f5;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+  background: #f5f5f5;
+}
+
+.token.comment,
+.token.blockquote {
+  color: #969896;
+}
+
+.token.cdata {
+  color: #183691;
+}
+
+.token.doctype,
+.token.punctuation,
+.token.variable,
+.token.macro.property {
+  color: #333;
+}
+
+.token.operator,
+.token.important,
+.token.keyword,
+.token.rule,
+.token.builtin {
+  color: #a71d5d;
+}
+
+.token.string,
+.token.url,
+.token.regex,
+.token.attr-value {
+  color: #183691;
+}
+
+.token.property,
+.token.number,
+.token.boolean,
+.token.entity,
+.token.atrule,
+.token.constant,
+.token.symbol,
+.token.command,
+.token.code {
+  color: #0086b3;
+}
+
+.token.tag,
+.token.selector,
+.token.prolog {
+  color: #63a35c;
+}
+
+.token.function,
+.token.namespace,
+.token.pseudo-element,
+.token.class,
+.token.class-name,
+.token.pseudo-class,
+.token.id,
+.token.url-reference .token.variable,
+.token.attr-name {
+  color: #795da3;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.title,
+.token.title .token.punctuation {
+  font-weight: bold;
+  color: #1d3e81;
+}
+
+.token.list {
+  color: #ed6a43;
+}
+
+.token.inserted {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.token.deleted {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+
+/* JSON */
+.language-json .token.property {
+  color: #183691;
+}
+
+.language-markup .token.tag .token.punctuation {
+  color: #333;
+}
+
+/* CSS */
+code.language-css,
+.language-css .token.function {
+  color: #0086b3;
+}
+
+/* YAML */
+.language-yaml .token.atrule {
+  color: #63a35c;
+}
+
+code.language-yaml {
+  color: #183691;
+}
+
+/* Ruby */
+.language-ruby .token.function {
+  color: #333;
+}
+
+/* Markdown */
+.language-markdown .token.url {
+  color: #795da3;
+}
+
+/* Makefile */
+.language-makefile .token.symbol {
+  color: #795da3;
+}
+
+.language-makefile .token.variable {
+  color: #183691;
+}
+
+.language-makefile .token.builtin {
+  color: #0086b3;
+}
+
+/* Bash */
+.language-bash .token.keyword {
+  color: #0086b3;
+}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{padding:0 1.6em;margin-top:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc li{margin-bottom:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{list-style-type:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  150px);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none} 
+       
+      </style>
+    </head>
+    <body for="html-export">
+      <div class="mume markdown-preview   ">
+      <h1 class="mume-header" id="analise-de-ponto-de-fun&#xE7;&#xE3;o">Analise de Ponto de Função</h1>
+
+<h2 class="mume-header" id="defini&#xE7;&#xE3;o">Definição</h2>
+
+<p>Quantificar o produto do trabalho de desenvolvimento e manutenção de sistemas no que diz respeito de funções efetivamente entregue aos usuários final, indepente da metodologia e ferramenta utilizada.</p>
+<h3 class="mume-header" id="cronologia">Cronologia</h3>
+
+<ul>
+<li>1974 GUIDE IBM</li>
+<li>1979 IMB - Allan Albrecht</li>
+<li>1986 IFPUG
+<ul>
+<li>SPQR/20</li>
+</ul>
+</li>
+<li>1993 Function Point Workbench</li>
+</ul>
+<h2 class="mume-header" id="ent&#xE3;o-o-que-&#xE9;">Então o que é?</h2>
+
+<p>Define uma medida utilizada para determinar o tamanho de uma aplicação. Ela se baseia nas funções executadas pela aplicação do ponto de vista do usuário.</p>
+<h4 class="mume-header" id="premissas">PREMISSAS:</h4>
+
+<ul>
+<li>Entradas Externas</li>
+<li>Saídas Externas</li>
+<li>Arquivos Lógicos Internos</li>
+<li>Arquivos de interface Externa</li>
+<li>Consulta Externa</li>
+</ul>
+<h5 class="mume-header" id="entrada-externa">Entrada Externa:</h5>
+
+<p>Processo elementar que processa dados ou informações de controle vindos de fora da fronteira da aplicação.<br>
+<em>Ex: Formulário de cadastros</em><br>
+A principal intenção de uma <strong>EE</strong> é manter um ou mais <strong>ALI</strong> e/ou alterar o comportamento do sistema.</p>
+<p>Criação de Entradas externas vai requerer várias consultas externas (Possivelmente)</p>
+<ul>
+<li>Entrada Externa para recuperar dados do cliente.</li>
+<li>Entrada externa para recuperar lista de produto.</li>
+</ul>
+<h5 class="mume-header" id="sa&#xED;da-externa">Saída Externa:</h5>
+
+<p>Processo elementar que gerar dados ou informações de controle que saem da fronteira da aplicação</p>
+<p>Principal objetivo de uma <strong>SE</strong> é apresentar dados ao usuário por meio de lógica de processamento que não seja apenas recuperação de dados.</p>
+<p>A lógica de processamento deve obrigatoriamente conter ao menos uma fórmula matemática ou cálculo, ou criar dados derivados. Pode também menter um ou mais <strong>ALI's</strong> e/ou alterar o comportamento do sistema.</p>
+<h5 class="mume-header" id="exemplos">Exemplos:</h5>
+
+<ul>
+<li>Relatórios com totalização de dados.</li>
+<li>Relatório que também atualizam arquivos.</li>
+<li>Consultar com apresentação de dados derivados ou cálculos.</li>
+<li>Geração de arquivos de movimento para outra aplicação.</li>
+<li>Informações em formatos gráficos.</li>
+</ul>
+<h5 class="mume-header" id="n&#xE3;o-exemplos">Não Exemplos:</h5>
+
+<ul>
+<li>Consultas e relatórios sem nenhum totalizador, que não atualiza <strong>ALI</strong>, não tem dado derivado ou modificam o comportamento do sistema.</li>
+<li>Dois relatórios iguais, apenas com distinção de ordenação.</li>
+</ul>
+<h5 class="mume-header" id="arquivos-l&#xF3;gicos-interno">Arquivos lógicos interno:</h5>
+
+<p>Grupos lógicos de dados do ponto de vista do usuário cuja manutenção é feita internamente na aplicação.</p>
+<h5 class="mume-header" id="arquivos-l&#xF3;gicos-interno-1">Arquivos lógicos interno:</h5>
+
+<p>Grupos lógicos de dados que passa de uma aplicação para outra cuja manutenção pertence a outra aplicação.</p>
+<h5 class="mume-header" id="consultas-externas">Consultas externas:</h5>
+
+<p>Processo elementar que envia dados ou informações para fora da fronteira da aplicação.</p>
+<p>A principal de uma <strong>CE</strong> é apresentar informação ao usuário por meio de uma simples recuperação de dados de <strong>ALI's</strong> e/ou <strong>AIE's</strong>.</p>
+<p>Lógica de processamento não deve conter fórmula matemática ou cálculo, criar dados derivados, manter um ou mais <strong>ALI</strong> e/ou alterar o comportamento do sistema.</p>
+<h3 class="mume-header" id="apf-processo">APF - PROCESSO</h3>
+
+<ul>
+<li>Identificar e enumerar as funções da aplicação:
+<ul>
+<li>Número de entradas externas, Saídas Externas, Arquivos lógicos internos, Arquivos lógicos de interface e Consultas externas.</li>
+</ul>
+</li>
+<li>Classificar cada uma das funções identificadas ao seu nível de complexidade
+<ul>
+<li>Simples, Médio ou complexo.</li>
+</ul>
+</li>
+<li>Ajustar o número de pontos de funções brutos ao nível de complexidade do processamento.</li>
+</ul>
+<h3 class="mume-header" id="apf-tabelas">APF - TABELAS</h3>
+
+<h4 class="mume-header" id="complexidade-entrada-externa-ee">Complexidade Entrada Externa EE</h4>
+
+<table>
+<thead>
+<tr>
+<th>Campos</th>
+<th>1 à 4 itens de dados referenciados</th>
+<th>5 à 15 itens de dados referenciados</th>
+<th>16 ou mais itens de dados referenciados</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0  ou 1 tipo de arquivo referenciado</td>
+<td>simples</td>
+<td>simples</td>
+<td>médio</td>
+</tr>
+<tr>
+<td>2 tipos de arquivos referenciados</td>
+<td>simples</td>
+<td>médio</td>
+<td>Complexo</td>
+</tr>
+<tr>
+<td>3 ou mais tipos de arquivos referenciados</td>
+<td>Médio</td>
+<td>Complexo</td>
+<td>Complexo.</td>
+</tr>
+</tbody>
+</table>
+<h4 class="mume-header" id="complexidade-sa&#xED;da-externa-se">Complexidade Saída Externa SE</h4>
+
+<table>
+<thead>
+<tr>
+<th>Campos</th>
+<th>1 à 5 itens de dados referenciados</th>
+<th>6 à 19 itens de dados referenciados</th>
+<th>20 ou mais itens de dados referenciados</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0  ou 1 tipo de arquivo referenciado</td>
+<td>simples</td>
+<td>simples</td>
+<td>médio</td>
+</tr>
+<tr>
+<td>2 ou 3 tipos de arquivos referenciados</td>
+<td>simples</td>
+<td>médio</td>
+<td>Complexo</td>
+</tr>
+<tr>
+<td>4 ou mais tipos de arquivos referenciados</td>
+<td>Médio</td>
+<td>Complexo</td>
+<td>Complexo</td>
+</tr>
+</tbody>
+</table>
+<h4 class="mume-header" id="complexidade-arquivo-l&#xF3;gico-interno-ali">Complexidade Arquivo Lógico Interno ALI</h4>
+
+<table>
+<thead>
+<tr>
+<th>Campos</th>
+<th>1 à 19 itens de dados referenciados</th>
+<th>20 à 50 itens de dados referenciados</th>
+<th>51 ou mais itens de dados referenciados</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 tipo de registro  lógico</td>
+<td>simples</td>
+<td>simples</td>
+<td>médio</td>
+</tr>
+<tr>
+<td>2 à 5 tipos de registro  lógico</td>
+<td>simples</td>
+<td>médio</td>
+<td>Complexo</td>
+</tr>
+<tr>
+<td>6 ou mais tipos de registro  lógico</td>
+<td>Médio</td>
+<td>Complexo</td>
+<td>Complexo</td>
+</tr>
+</tbody>
+</table>
+<h4 class="mume-header" id="complexidade-arquivo-l&#xF3;gico-externo-aie">Complexidade Arquivo Lógico Externo AIE</h4>
+
+<table>
+<thead>
+<tr>
+<th>Campos</th>
+<th>1 à 19 itens de dados referenciados</th>
+<th>20 à 50 itens de dados referenciados</th>
+<th>51 ou mais itens de dados referenciados</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 tipo de registro  lógico</td>
+<td>simples</td>
+<td>simples</td>
+<td>médio</td>
+</tr>
+<tr>
+<td>2 à 5 tipos de registro  lógico</td>
+<td>simples</td>
+<td>médio</td>
+<td>Complexo</td>
+</tr>
+<tr>
+<td>6 ou mais tipos de registro  lógico</td>
+<td>Médio</td>
+<td>Complexo</td>
+<td>Complexo</td>
+</tr>
+</tbody>
+</table>
+<h4 class="mume-header" id="complexidade-consulta-externo-ce">Complexidade Consulta Externo CE</h4>
+
+<table>
+<thead>
+<tr>
+<th>Campos</th>
+<th>1 à 5 itens de dados referenciados</th>
+<th>6 à 19 itens de dados referenciados</th>
+<th>20 ou mais itens de dados referenciados</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0 ou 1 tipo de arquivo referenciado</td>
+<td>simples</td>
+<td>simples</td>
+<td>médio</td>
+</tr>
+<tr>
+<td>2 ou 3 tipos de arquivo referenciado</td>
+<td>simples</td>
+<td>médio</td>
+<td>Complexo</td>
+</tr>
+<tr>
+<td>4 ou mais tipos de registro  lógico</td>
+<td>Médio</td>
+<td>Complexo</td>
+<td>Complexo</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Função</th>
+<th>Nº de ocorrencia</th>
+<th>Complexidade</th>
+<th>Peso</th>
+<th>Resultado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Entrada externa</strong></td>
+<td></td>
+<td>Simples</td>
+<td>x 3 =</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Médio</td>
+<td>x 4 =</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Complexo</td>
+<td>x 6 =</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Total 1</td>
+<td>=</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Saida externa</strong></td>
+<td></td>
+<td>Simples</td>
+<td>x 4 =</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Médio</td>
+<td>x 5 =</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Complexo</td>
+<td>x 7 =</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Total 2</td>
+<td>=</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Arquivo Lógico Interno</strong></td>
+<td></td>
+<td>Simples</td>
+<td>x 7 =</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Médio</td>
+<td>x 10 =</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Complexo</td>
+<td>x 15 =</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Total 3</td>
+<td>=</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Arquivo interface Externo</strong></td>
+<td></td>
+<td>Simples</td>
+<td>x 5 =</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Médio</td>
+<td>x 7 =</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Complexo</td>
+<td>x 10 =</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Total 4</td>
+<td>=</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Consultas</strong></td>
+<td></td>
+<td>Simples</td>
+<td>x 3 =</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Médio</td>
+<td>x 4 =</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Complexo</td>
+<td>x 6 =</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Total 5</td>
+<td>=</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 class="mume-header" id="apf-produtividade-linguagem">APF - Produtividade / Linguagem</h3>
+
+<h3 class="mume-header" id="apf-ajustes">APF - Ajustes</h3>
+
+<p>Para determinar o fator de ajuste, deves-se estimar o nível de influência para cada uma das características da aplicação relacinada abaixo:</p>
+<ol>
+<li>Comumunicação de dados</li>
+<li>Funções Distribuidas</li>
+<li>Desempenho</li>
+<li>Carga de configuração</li>
+<li>Volume de transação</li>
+<li>Entrada de dados online</li>
+<li>Eficiência do usuário final</li>
+<li>Atualização online</li>
+<li>Processameneto complexo</li>
+<li>Reutilização</li>
+<li>Facilidade de implantação</li>
+<li>Facilidade operacional</li>
+<li>Múltiplos locais</li>
+<li>Facildiade de mudança</li>
+</ol>
+<p>0 = Não existe nenhuma influência<br>
+1 = Pouca Influencia<br>
+2 = Influência moderada<br>
+3 = Influência média<br>
+4 = Influência significativa<br>
+5 = Grande influência</p>
+<h3 class="mume-header" id="apf-fator-de-ajustes">APF - Fator de Ajustes</h3>
+
+<pre class="language-js">    
+    <span class="token comment" spellcheck="true">// let NI // Nível de influencia</span>
+   <span class="token comment" spellcheck="true">// let fa  // fator de Ajuste</span>
+   <span class="token comment" spellcheck="true">// pfa // Ponde de função ajustado</span>
+
+   <span class="token keyword">let</span> fa <span class="token operator">=</span>  <span class="token number">0</span><span class="token punctuation">,</span><span class="token number">65</span> <span class="token operator">+</span> <span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">01</span> <span class="token operator">*</span> NI<span class="token punctuation">)</span>
+   <span class="token keyword">let</span> pfa <span class="token operator">=</span> pfb <span class="token operator">*</span> fa
+</pre>
+<h1 class="mume-header" id="exercitar">Exercitar</h1>
+
+<h2 class="mume-header" id="an&#xE1;lise">Análise</h2>
+
+<table>
+<thead>
+<tr>
+<th>RF</th>
+<th>Levantamento de requisitos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RF1</td>
+<td>O sistema deve permitir ao usuário manter categorias musicas. (Deve manter descrição da categorias)</td>
+</tr>
+<tr>
+<td>RF2</td>
+<td>O Sistema deve permitir ao usuário manter discos. (Deve ser mantido o titulo do disco, ano de gravação e numero de faixas)</td>
+</tr>
+<tr>
+<td>RF3</td>
+<td>O sistema deve permitir ao usuário alocar discos à categorias. (Um disco deve está alocado em uma categoria e uma categoria pode conter zero ou vários 'N' discos).</td>
+</tr>
+</tbody>
+</table>
+<h4 class="mume-header" id="diagrama-de-caso-de-uso">Diagrama de caso de uso</h4>
+
+<p><img src="../img/016.jpg" alt="Diagrama de caso de uso"></p>
+<h4 class="mume-header" id="diagrama-de-classe">Diagrama de classe</h4>
+
+<p><img src="../img/017.jpg" alt="Diagrama de caso de uso"></p>
+<h4 class="mume-header" id="navegabildiade">Navegabildiade</h4>
+
+<p><img src="../img/018.jpg" alt="Navegabilidade"></p>
+<h4 class="mume-header" id="detalhes-prot&#xF3;tipo">Detalhes protótipo</h4>
+
+<p><img src="../img/019.jpg" alt="Navegabilidade"></p>
+<p>EE</p>
+<ul>
+<li>Incluir Categoria - simples</li>
+<li>Editar Categoria - simples</li>
+<li>Excluir Categoria - simples</li>
+<li>Incluir Disco - Simples</li>
+<li>Editar Disco - simples</li>
+<li>Excluir Disco - simples</li>
+</ul>
+<p>6 x simples peso 3  = 18<br>
+0 x Médio peso 4 = 0<br>
+0 x Complexo peso 6 = 0<br>
+TOTAL: 18</p>
+<p>SE<br>
+0 x simples peso 4  = 0<br>
+0 x Médio peso 5 = 0<br>
+0 x Complexo peso 7 = 0<br>
+TOTAL: 0</p>
+<p>ALI</p>
+<p>2 x simples peso 7 = 14<br>
+0 x Médio peso 10 = 0<br>
+0 x Complexo peso 15 = 0<br>
+TOTAL:  14</p>
+<p>AIE</p>
+<p>0 x simples peso 7 = 0<br>
+0 x Médio peso 10 = 0<br>
+0 x Complexo peso 15 = 0<br>
+TOTAL: 0</p>
+<p>CE</p>
+<ul>
+<li>Pesquisar categoria - simples</li>
+<li>Pesquisar disco - simples</li>
+<li>ComboBox EditarDisco - simples</li>
+<li>load dados Editar categoria - simples</li>
+<li>load dados Editar disco - simples</li>
+</ul>
+<p>5 x simples peso 3 = 15<br>
+0 x Médio peso 4 = 0<br>
+0 x Complexo peso 6 = 0<br>
+TOTAL : 15</p>
+<h3 class="mume-header" id="contando">Contando</h3>
+
+<table>
+<thead>
+<tr>
+<th>Função</th>
+<th>Nº de ocorrencia</th>
+<th>Complexidade</th>
+<th>Peso</th>
+<th>Resultado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Entrada externa</strong></td>
+<td></td>
+<td>Simples</td>
+<td>x 3 =</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Médio</td>
+<td>x 4 =</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Complexo</td>
+<td>x 6 =</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Total 1</td>
+<td>=</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Saida externa</strong></td>
+<td></td>
+<td>Simples</td>
+<td>x 4 =</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Médio</td>
+<td>x 5 =</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Complexo</td>
+<td>x 7 =</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Total 2</td>
+<td>=</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Arquivo Lógico Interno</strong></td>
+<td></td>
+<td>Simples</td>
+<td><strong>2</strong> x 7 =</td>
+<td><strong>14</strong></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Médio</td>
+<td><strong>0</strong> x 10 =</td>
+<td>0</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Complexo</td>
+<td><strong>0</strong> x 15 =</td>
+<td>0</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Total 3</td>
+<td>=</td>
+<td><strong>14</strong></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Arquivo interface Externo</strong></td>
+<td></td>
+<td>Simples</td>
+<td>0 x 5 =</td>
+<td>0</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Médio</td>
+<td>0 x 7 =</td>
+<td>0</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Complexo</td>
+<td>0 x 10 =</td>
+<td>0</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Total 4</td>
+<td>=</td>
+<td>0</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Consultas</strong></td>
+<td></td>
+<td>Simples</td>
+<td>x 3 =</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Médio</td>
+<td>x 4 =</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Complexo</td>
+<td>x 6 =</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Total 5</td>
+<td>=</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<pre class="language-js"><span class="token comment" spellcheck="true">//TOTAL PONTO FUNÇÃO BRUTOS 15+14+18</span>
+<span class="token keyword">var</span> pfb <span class="token operator">=</span> <span class="token number">15</span><span class="token operator">+</span><span class="token number">14</span><span class="token operator">+</span><span class="token number">18</span>
+</pre>
+
+      </div>
+      <div class="md-sidebar-toc"><ul>
+<li><a href="#analise-de-ponto-de-fun%C3%A7%C3%A3o">Analise de Ponto de Função</a>
+<ul>
+<li><a href="#defini%C3%A7%C3%A3o">Definição</a>
+<ul>
+<li><a href="#cronologia">Cronologia</a></li>
+</ul>
+</li>
+<li><a href="#ent%C3%A3o-o-que-%C3%A9">Então o que é?</a><br>
+* <a href="#premissas">PREMISSAS:</a><br>
+* <a href="#entrada-externa">Entrada Externa:</a><br>
+* <a href="#sa%C3%ADda-externa">Saída Externa:</a><br>
+* <a href="#exemplos">Exemplos:</a><br>
+* <a href="#n%C3%A3o-exemplos">Não Exemplos:</a><br>
+* <a href="#arquivos-l%C3%B3gicos-interno">Arquivos lógicos interno:</a><br>
+* <a href="#arquivos-l%C3%B3gicos-interno-1">Arquivos lógicos interno:</a><br>
+* <a href="#consultas-externas">Consultas externas:</a>
+<ul>
+<li><a href="#apf-processo">APF - PROCESSO</a></li>
+<li><a href="#apf-tabelas">APF - TABELAS</a>
+<ul>
+<li><a href="#complexidade-entrada-externa-ee">Complexidade Entrada Externa EE</a></li>
+<li><a href="#complexidade-sa%C3%ADda-externa-se">Complexidade Saída Externa SE</a></li>
+<li><a href="#complexidade-arquivo-l%C3%B3gico-interno-ali">Complexidade Arquivo Lógico Interno ALI</a></li>
+<li><a href="#complexidade-arquivo-l%C3%B3gico-externo-aie">Complexidade Arquivo Lógico Externo AIE</a></li>
+<li><a href="#complexidade-consulta-externo-ce">Complexidade Consulta Externo CE</a></li>
+</ul>
+</li>
+<li><a href="#apf-produtividade-linguagem">APF - Produtividade / Linguagem</a></li>
+<li><a href="#apf-ajustes">APF - Ajustes</a></li>
+<li><a href="#apf-fator-de-ajustes">APF - Fator de Ajustes</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#exercitar">Exercitar</a>
+<ul>
+<li><a href="#an%C3%A1lise">Análise</a><br>
+* <a href="#diagrama-de-caso-de-uso">Diagrama de caso de uso</a><br>
+* <a href="#diagrama-de-classe">Diagrama de classe</a><br>
+* <a href="#navegabildiade">Navegabildiade</a><br>
+* <a href="#detalhes-prot%C3%B3tipo">Detalhes protótipo</a>
+<ul>
+<li><a href="#contando">Contando</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+      <a id="sidebar-toc-btn">≡</a>
+    </body>
+    
+    
+    
+    <script>
+(function bindTaskListEvent() {
+  var taskListItemCheckboxes = document.body.getElementsByClassName('task-list-item-checkbox')
+  for (var i = 0; i < taskListItemCheckboxes.length; i++) {
+    var checkbox = taskListItemCheckboxes[i]
+    var li = checkbox.parentElement
+    if (li.tagName !== 'LI') li = li.parentElement
+    if (li.tagName === 'LI') {
+      li.classList.add('task-list-item')
+    }
+  }
+}())    
+</script>
+    
+<script>
+
+var sidebarTOCBtn = document.getElementById('sidebar-toc-btn')
+sidebarTOCBtn.addEventListener('click', function(event) {
+  event.stopPropagation()
+  if (document.body.hasAttribute('html-show-sidebar-toc')) {
+    document.body.removeAttribute('html-show-sidebar-toc')
+  } else {
+    document.body.setAttribute('html-show-sidebar-toc', true)
+  }
+})
+</script>
+      
+  </html>
