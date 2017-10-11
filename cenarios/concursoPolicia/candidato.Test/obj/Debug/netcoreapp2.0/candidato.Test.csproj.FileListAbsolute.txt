@@ -1,0 +1,15 @@
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/concursoPolicia/candidato.Test/bin/Debug/netcoreapp2.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/concursoPolicia/candidato.Test/bin/Debug/netcoreapp2.0/xunit.runner.utility.netstandard15.dll
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/concursoPolicia/candidato.Test/bin/Debug/netcoreapp2.0/xunit.runner.reporters.netstandard15.dll
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/concursoPolicia/candidato.Test/bin/Debug/netcoreapp2.0/candidato.Test.deps.json
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/concursoPolicia/candidato.Test/bin/Debug/netcoreapp2.0/candidato.Test.runtimeconfig.json
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/concursoPolicia/candidato.Test/bin/Debug/netcoreapp2.0/candidato.Test.runtimeconfig.dev.json
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/concursoPolicia/candidato.Test/bin/Debug/netcoreapp2.0/candidato.Test.dll
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/concursoPolicia/candidato.Test/bin/Debug/netcoreapp2.0/candidato.Test.pdb
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/concursoPolicia/candidato.Test/bin/Debug/netcoreapp2.0/candidato.dll
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/concursoPolicia/candidato.Test/bin/Debug/netcoreapp2.0/candidato.pdb
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/concursoPolicia/candidato.Test/obj/Debug/netcoreapp2.0/candidato.Test.csproj.CoreCompileInputs.cache
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/concursoPolicia/candidato.Test/obj/Debug/netcoreapp2.0/candidato.Test.AssemblyInfoInputs.cache
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/concursoPolicia/candidato.Test/obj/Debug/netcoreapp2.0/candidato.Test.AssemblyInfo.cs
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/concursoPolicia/candidato.Test/obj/Debug/netcoreapp2.0/candidato.Test.dll
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/concursoPolicia/candidato.Test/obj/Debug/netcoreapp2.0/candidato.Test.pdb
