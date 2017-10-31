@@ -1,0 +1,13 @@
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/c#/unit/conta-project-test/contaTest/bin/Debug/netcoreapp1.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/c#/unit/conta-project-test/contaTest/bin/Debug/netcoreapp1.1/xunit.runner.utility.netstandard15.dll
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/c#/unit/conta-project-test/contaTest/bin/Debug/netcoreapp1.1/xunit.runner.reporters.netstandard15.dll
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/c#/unit/conta-project-test/contaTest/bin/Debug/netcoreapp1.1/contaTest.deps.json
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/c#/unit/conta-project-test/contaTest/bin/Debug/netcoreapp1.1/contaTest.runtimeconfig.json
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/c#/unit/conta-project-test/contaTest/bin/Debug/netcoreapp1.1/contaTest.runtimeconfig.dev.json
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/c#/unit/conta-project-test/contaTest/bin/Debug/netcoreapp1.1/contaTest.dll
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/c#/unit/conta-project-test/contaTest/bin/Debug/netcoreapp1.1/contaTest.pdb
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/c#/unit/conta-project-test/contaTest/bin/Debug/netcoreapp1.1/conta.dll
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/c#/unit/conta-project-test/contaTest/bin/Debug/netcoreapp1.1/conta.pdb
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/c#/unit/conta-project-test/contaTest/obj/Debug/netcoreapp1.1/contaTest.AssemblyInfo.cs
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/c#/unit/conta-project-test/contaTest/obj/Debug/netcoreapp1.1/contaTest.dll
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/c#/unit/conta-project-test/contaTest/obj/Debug/netcoreapp1.1/contaTest.pdb

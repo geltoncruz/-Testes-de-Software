@@ -1,0 +1,8 @@
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/Banco/Conta/bin/Debug/netstandard2.0/Conta.deps.json
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/Banco/Conta/bin/Debug/netstandard2.0/Conta.dll
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/Banco/Conta/bin/Debug/netstandard2.0/Conta.pdb
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/Banco/Conta/obj/Debug/netstandard2.0/Conta.csproj.CoreCompileInputs.cache
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/Banco/Conta/obj/Debug/netstandard2.0/Conta.AssemblyInfoInputs.cache
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/Banco/Conta/obj/Debug/netstandard2.0/Conta.AssemblyInfo.cs
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/Banco/Conta/obj/Debug/netstandard2.0/Conta.dll
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/Banco/Conta/obj/Debug/netstandard2.0/Conta.pdb

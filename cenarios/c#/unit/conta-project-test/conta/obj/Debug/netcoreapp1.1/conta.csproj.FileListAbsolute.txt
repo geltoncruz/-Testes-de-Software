@@ -1,0 +1,8 @@
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/c#/unit/conta-project-test/conta/bin/Debug/netcoreapp1.1/conta.deps.json
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/c#/unit/conta-project-test/conta/bin/Debug/netcoreapp1.1/conta.runtimeconfig.json
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/c#/unit/conta-project-test/conta/bin/Debug/netcoreapp1.1/conta.runtimeconfig.dev.json
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/c#/unit/conta-project-test/conta/bin/Debug/netcoreapp1.1/conta.dll
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/c#/unit/conta-project-test/conta/bin/Debug/netcoreapp1.1/conta.pdb
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/c#/unit/conta-project-test/conta/obj/Debug/netcoreapp1.1/conta.AssemblyInfo.cs
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/c#/unit/conta-project-test/conta/obj/Debug/netcoreapp1.1/conta.dll
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/c#/unit/conta-project-test/conta/obj/Debug/netcoreapp1.1/conta.pdb

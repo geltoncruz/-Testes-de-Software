@@ -1,0 +1,8 @@
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/concursoPolicia/candidato/bin/Debug/netstandard2.0/candidato.deps.json
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/concursoPolicia/candidato/bin/Debug/netstandard2.0/candidato.dll
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/concursoPolicia/candidato/bin/Debug/netstandard2.0/candidato.pdb
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/concursoPolicia/candidato/obj/Debug/netstandard2.0/candidato.csproj.CoreCompileInputs.cache
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/concursoPolicia/candidato/obj/Debug/netstandard2.0/candidato.AssemblyInfoInputs.cache
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/concursoPolicia/candidato/obj/Debug/netstandard2.0/candidato.AssemblyInfo.cs
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/concursoPolicia/candidato/obj/Debug/netstandard2.0/candidato.dll
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/concursoPolicia/candidato/obj/Debug/netstandard2.0/candidato.pdb

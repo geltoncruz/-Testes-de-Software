@@ -1,0 +1,17 @@
+{
+    "version": "0.1.0",
+    "command": "dotnet",
+    "isShellCommand": true,
+    "args": [],
+    "tasks": [
+        {
+            "taskName": "build",
+            "args": [
+                "${workspaceRoot}/banco/banco.csproj",
+                "${workspaceRoot}/banco/banco.Test.csproj"
+            ],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}

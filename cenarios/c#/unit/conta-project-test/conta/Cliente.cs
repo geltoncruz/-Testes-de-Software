@@ -9,7 +9,7 @@ namespace conta{
         public bool Ativo{get; set;}
         public int Idade{get; set;}
 
-        public Cliente(){}
+public Cliente(){}
         public Cliente(String nome, String sNome, int ag, int nConta, bool ativo)
         {
             this.Agencia = ag;
