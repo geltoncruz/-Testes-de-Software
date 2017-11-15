@@ -1,0 +1,16 @@
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/TesteFuncional/Selenium_DotNetCore2/ConversaoDistancias.Testes/bin/Debug/netcoreapp2.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/TesteFuncional/Selenium_DotNetCore2/ConversaoDistancias.Testes/bin/Debug/netcoreapp2.0/xunit.runner.utility.netstandard15.dll
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/TesteFuncional/Selenium_DotNetCore2/ConversaoDistancias.Testes/bin/Debug/netcoreapp2.0/xunit.runner.reporters.netstandard15.dll
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/TesteFuncional/Selenium_DotNetCore2/ConversaoDistancias.Testes/bin/Debug/netcoreapp2.0/appsettings.json
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/TesteFuncional/Selenium_DotNetCore2/ConversaoDistancias.Testes/bin/Debug/netcoreapp2.0/ConversaoDistancias.Testes.deps.json
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/TesteFuncional/Selenium_DotNetCore2/ConversaoDistancias.Testes/bin/Debug/netcoreapp2.0/ConversaoDistancias.Testes.runtimeconfig.json
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/TesteFuncional/Selenium_DotNetCore2/ConversaoDistancias.Testes/bin/Debug/netcoreapp2.0/ConversaoDistancias.Testes.runtimeconfig.dev.json
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/TesteFuncional/Selenium_DotNetCore2/ConversaoDistancias.Testes/bin/Debug/netcoreapp2.0/ConversaoDistancias.Testes.dll
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/TesteFuncional/Selenium_DotNetCore2/ConversaoDistancias.Testes/bin/Debug/netcoreapp2.0/ConversaoDistancias.Testes.pdb
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/TesteFuncional/Selenium_DotNetCore2/ConversaoDistancias.Testes/bin/Debug/netcoreapp2.0/Selenium.Utils.dll
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/TesteFuncional/Selenium_DotNetCore2/ConversaoDistancias.Testes/bin/Debug/netcoreapp2.0/Selenium.Utils.pdb
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/TesteFuncional/Selenium_DotNetCore2/ConversaoDistancias.Testes/obj/Debug/netcoreapp2.0/ConversaoDistancias.Testes.csproj.CoreCompileInputs.cache
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/TesteFuncional/Selenium_DotNetCore2/ConversaoDistancias.Testes/obj/Debug/netcoreapp2.0/ConversaoDistancias.Testes.AssemblyInfoInputs.cache
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/TesteFuncional/Selenium_DotNetCore2/ConversaoDistancias.Testes/obj/Debug/netcoreapp2.0/ConversaoDistancias.Testes.AssemblyInfo.cs
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/TesteFuncional/Selenium_DotNetCore2/ConversaoDistancias.Testes/obj/Debug/netcoreapp2.0/ConversaoDistancias.Testes.dll
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/TesteFuncional/Selenium_DotNetCore2/ConversaoDistancias.Testes/obj/Debug/netcoreapp2.0/ConversaoDistancias.Testes.pdb

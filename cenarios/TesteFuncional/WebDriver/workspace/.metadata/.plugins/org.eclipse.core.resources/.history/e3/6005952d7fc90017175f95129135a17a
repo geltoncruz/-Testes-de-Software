@@ -1,0 +1,7 @@
+package testeFuncional;
+
+public class TesteSenai {
+	public static void main(String[] args) {
+		
+	}
+}

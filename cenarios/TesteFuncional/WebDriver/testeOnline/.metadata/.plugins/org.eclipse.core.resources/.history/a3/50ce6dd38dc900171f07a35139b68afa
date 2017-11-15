@@ -1,0 +1,10 @@
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class TesteSenai {
+	
+	public static void main(String[] args) {
+		Webdriver driver = new FirefoxDriver(); 
+	}
+
+}

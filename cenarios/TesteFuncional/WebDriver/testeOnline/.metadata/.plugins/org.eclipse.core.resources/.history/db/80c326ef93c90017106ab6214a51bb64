@@ -1,0 +1,26 @@
+//import org.apache.http.util.Asserts;
+//import org.junit.Assert;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.WebDriver;
+
+
+public class TesteSenai {
+	
+	@Test
+	public void teste() {
+		System.setProperty("webdriver.chrome.driver", "/home/geltoncruz/Downloads/drivers/chromedriver");
+//		WebDriver driver = new FirefoxDriver();
+		WebDriver driver = new ChromeDriver();
+		driver.get("http://www.fieb.org.br/senai/");
+		System.out.println(driver.getTitle());
+		
+		driver.
+		driver.close();
+		
+		
+		
+		
+	}
+
+}

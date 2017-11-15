@@ -1,0 +1,16 @@
+1. Requisitos 
+1.1 teste de unidade:
+1.2 Cenário de teste
+1.2 Caso de teste (automático ou manual)
+
+2. teste de integração:
+2.1 Cenário de teste
+2.2 Caso de teste (automático ou manual)
+
+3. Teste funcional
+3.1 Cenário de teste
+3.2 Selenium Ide Automático ou manual 
+
+4. Teste de aceitação (Avaliação do cliente sobre os requisitos)
+
+

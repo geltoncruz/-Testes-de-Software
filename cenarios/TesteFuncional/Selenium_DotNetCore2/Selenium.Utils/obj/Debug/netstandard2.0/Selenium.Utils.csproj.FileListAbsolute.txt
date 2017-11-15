@@ -1,0 +1,8 @@
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/TesteFuncional/Selenium_DotNetCore2/Selenium.Utils/bin/Debug/netstandard2.0/Selenium.Utils.deps.json
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/TesteFuncional/Selenium_DotNetCore2/Selenium.Utils/bin/Debug/netstandard2.0/Selenium.Utils.dll
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/TesteFuncional/Selenium_DotNetCore2/Selenium.Utils/bin/Debug/netstandard2.0/Selenium.Utils.pdb
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/TesteFuncional/Selenium_DotNetCore2/Selenium.Utils/obj/Debug/netstandard2.0/Selenium.Utils.csproj.CoreCompileInputs.cache
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/TesteFuncional/Selenium_DotNetCore2/Selenium.Utils/obj/Debug/netstandard2.0/Selenium.Utils.AssemblyInfoInputs.cache
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/TesteFuncional/Selenium_DotNetCore2/Selenium.Utils/obj/Debug/netstandard2.0/Selenium.Utils.AssemblyInfo.cs
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/TesteFuncional/Selenium_DotNetCore2/Selenium.Utils/obj/Debug/netstandard2.0/Selenium.Utils.dll
+/home/geltoncruz/Documents/aulas/Testes-de-Software/cenarios/TesteFuncional/Selenium_DotNetCore2/Selenium.Utils/obj/Debug/netstandard2.0/Selenium.Utils.pdb
