@@ -1,3 +1,12 @@
 cenarios/c#/bin/*
 cenarios/c#/obj/*
 cenarios/c#/.vscode/*
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Maven
+log/
+target/
